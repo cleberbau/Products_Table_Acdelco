@@ -5,15 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Novidades Acdelco</title>
 </head>
 <body>
     <div class="header">
                 <div><img class="logo" src="https://th.bing.com/th/id/R.64ecefc7d641bf4534e6870a636f1b72?rik=3lwK5it6f2K50Q&pid=ImgRaw&r=0" alt=""></div>
-                <div><p>Novidades ACDelco</p></div>
+                <div><input type="text" id="search-input" placeholder="Digite o Codigo ou Veiculo Desejado">
+                    <button id="search-btn">Buscar</button></div>
+
+                    
+
+
+
     </div>
     <div class="container">
-        <table>
+        <table id="myTable">
             <thead>
                 <tr>
                     <th>Código Acdelco</th>
@@ -874,6 +881,7 @@
                                 </tbody>
         </table>
     </div>
+    <div id="error-message" class="hidden">Nenhum resultado encontrado.</div>
     
 </body>
 </html>
