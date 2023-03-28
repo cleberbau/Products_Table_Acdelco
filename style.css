@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
 html,
 body {
 	height: 100%;
 	box-sizing: border-box;
+	
 
 }
 
@@ -40,7 +43,7 @@ body {
 }
 
 .container{
-	padding-top: 70px;
+	padding-top: 50px;
 	color: rgb(70, 70, 70);
 	
 }
