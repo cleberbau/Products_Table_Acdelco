@@ -4,9 +4,11 @@ const data = rows.map(row => {
   const cells = row.querySelectorAll('td');
   return {
     codigo: cells[0].textContent.trim(),
-    descricao: cells[1].textContent.trim(),
-    aplicacao: cells[2].textContent.trim(),
-    preco: cells[3].textContent.trim()
+    cross: cells[1].textContent.trim(),
+    cross_2:cells[2].textContent.trim(),
+    descricao: cells[3].textContent.trim(),
+    aplicacao: cells[4].textContent.trim(),
+    preco: cells[5].textContent.trim()
   };
 });
 
@@ -29,6 +31,8 @@ function render(data) {
     return `
       <tr>
         <td>${item.codigo}</td>
+        <td>${item.cross}</td>
+        <td>${item.cross_2}</td>
         <td>${item.descricao}</td>
         <td>${item.aplicacao}</td>
         <td>${item.preco}</td>

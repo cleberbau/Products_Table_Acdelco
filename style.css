@@ -133,4 +133,18 @@ thead{
 .tg-c3ow{
 	font-weight: bold;
 }
- 
+
+.nova{
+	display: flex;
+	width: 10vw;	
+	margin: 0 auto;
+	padding-bottom: 20px;
+	
+}
+
+.final{
+	text-align: center;
+	font-weight: inherit;
+	margin: 0 auto;
+	font-weight: bold;
+}
