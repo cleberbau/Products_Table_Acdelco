@@ -117,3 +117,12 @@ thead{
 	
 
  }
+
+ .tg-cxho{
+	text-transform: lowercase;
+ }
+
+ .tg-cxho:first-letter {
+		text-transform: uppercase;
+	}
+ 
