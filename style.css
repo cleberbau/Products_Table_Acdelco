@@ -7,7 +7,7 @@ body {
 
 body {
 	margin: 0;
-	background:rgb(110, 110, 253);
+	background:rgb(213, 212, 212);
 	font-family: sans-serif;
 	font-weight: 100;
 }
@@ -17,11 +17,11 @@ body {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
-	color: #6f5fff;
+	color: #5f8cff;
 	height: 8vh;
 	width: 100%;
-	background-color: #FFF;
-	border-bottom: 10px solid #ffffff;
+	background-color: #6262e0;
+	border-bottom: 10px solid #be2929;
 	margin-bottom: 20px;
 	box-shadow: 1px 8px 5px 0px rgba(0,0,0,0.24);
 	-webkit-box-shadow: 1px 8px 5px 0px rgba(0,0,0,0.24);
@@ -41,7 +41,7 @@ body {
 
 .container{
 	padding-top: 70px;
-	color: rgb(0, 0, 0);
+	color: rgb(70, 70, 70);
 	
 }
 
@@ -50,7 +50,7 @@ table{
 	height: 400px;
 	border-collapse: collapse;
 	margin: 0 auto;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: #fff;
 	-webkit-box-shadow: 0px 0px 31px -3px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 31px -3px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 31px -3px rgba(0,0,0,0.75);
@@ -63,14 +63,14 @@ tbody,
 th,
 td
 {
-	border: rgb(100, 100, 100) solid 1px;
+	border: #0004ff solid 1px;
 	padding:10px;
 	
 }
 
 thead{
-	background-color: #FFF;
-	color: #6f5fff;
+	background-color: #0004ff;
+	color: #fff;
 }
 
 /* --------------------------------------------------------------------------*/
@@ -95,7 +95,7 @@ thead{
  }
 
  #search-btn{
-	background-color: rgb(41, 41, 247);
+	background-color: rgb(116, 144, 255);
 	color: white;
 	border-radius: 0 10px 10px 0px;
 	cursor: pointer;
