@@ -4,6 +4,7 @@ html,
 body {
 	height: 100%;
 	box-sizing: border-box;
+	font-size: 12px;
 	
 
 }
@@ -66,7 +67,7 @@ tbody,
 th,
 td
 {
-	border: #0004ff solid 1px;
+	border: #cfcfcf solid 1px;
 	padding:10px;
 	
 }
@@ -94,13 +95,13 @@ thead{
  }
 
  #search-btn{
-	background-color: rgb(255, 0, 0);
+	background-color:  #0004ff;
 	color: white;
 	border-radius: 0 10px 10px 0px;
 	width: 5vw;
 	cursor: pointer;
 	margin: 10px 10px 10px 0;
-	height: 4vh;
+	height: 4.3vh;
 	
  }
 
@@ -121,11 +122,15 @@ thead{
 
  }
 
- .tg-cxho{
+ .tg-lboi{
 	text-transform: lowercase;
  }
 
- .tg-cxho:first-letter {
+ .tg-lboi:first-letter {
 		text-transform: uppercase;
 	}
+
+.tg-c3ow{
+	font-weight: bold;
+}
  
