@@ -34,7 +34,7 @@ body {
 }
 
 .logo{
-	width: 15%;
+	width: 50%;
 	margin: 15px;
 	padding-top: 15px;
 }
@@ -103,7 +103,7 @@ thead{
 
  #search-btn:hover{
 	background-color: rgb(179, 179, 244);
-	color: rgb(41, 41, 247);;
+	color: white;
 
 
  }
