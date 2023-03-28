@@ -20,8 +20,8 @@ body {
 	color: #5f8cff;
 	height: 8vh;
 	width: 100%;
-	background-color: #6262e0;
-	border-bottom: 10px solid #be2929;
+	background: linear-gradient(120deg, #0032FF 0%, #98D8FD 100%);
+	
 	margin-bottom: 20px;
 	box-shadow: 1px 8px 5px 0px rgba(0,0,0,0.24);
 	-webkit-box-shadow: 1px 8px 5px 0px rgba(0,0,0,0.24);
@@ -34,9 +34,9 @@ body {
 }
 
 .logo{
-	width: 50%;
-	margin: 15px;
+	width: 20vh;
 	padding-top: 15px;
+	padding-bottom: 10px;
 }
 
 .container{
@@ -74,18 +74,14 @@ thead{
 }
 
 /* --------------------------------------------------------------------------*/
-.form{
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	justify-content: space-around;
+.formulario{
+	display:flex;
+		
 }
 
 #search-input,
 #search-btn
 {
-  width: 100%;
-  height: 30px;
   margin-top: 10px;
   padding: 0 10px;
   font-size: 1rem;
@@ -95,21 +91,29 @@ thead{
  }
 
  #search-btn{
-	background-color: rgb(116, 144, 255);
+	background-color: rgb(255, 0, 0);
 	color: white;
 	border-radius: 0 10px 10px 0px;
+	width: 5vw;
 	cursor: pointer;
+	margin: 10px 10px 10px 0;
+	height: 4vh;
+	
  }
 
  #search-btn:hover{
 	background-color: rgb(179, 179, 244);
 	color: white;
+	
+	
 
 
  }
 
  #search-input{
 	border-radius: 10px 0px 0px 10px;
+	height: 4vh;
+	
 	
 
  }
